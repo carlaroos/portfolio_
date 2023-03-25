@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+  
+  .title {
+    font-family: 'ClashDisplay-Bold';
+    font-size: 3vw;
+  }
+  
+  .subtitle {
+    font-size: 1.5vw;
+  }
+  
+  .subtitle, .terms {
+    font-family: 'Satoshi-Bold';
+  }
+  
+  .terms {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .terms li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5vw;
+  }
+
+  .cta-buttons button {
+        border: none;
+        color: white;
+        padding: 20px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+      
+  }
+
+  .project {
+    background-color: black;
+  }
+
+  .contact {
+    background-color: gray;
+  }

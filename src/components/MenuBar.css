@@ -1,5 +1,5 @@
 nav {
-    background-color: gray;
+    background-color: black;
     padding: 2rem;
     margin: 0 -60px;
 
@@ -11,6 +11,7 @@ nav {
     padding: 0;
     display: flex;
     justify-content: flex-end;
+    font-family: 'Satoshi-Bold';
   }
   
   nav ul li {

@@ -1,0 +1,96 @@
+.experience-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+    padding-left: 20px;
+    
+  }
+  
+  .experience-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 600px;
+    margin: 0 20px;
+    margin-left: 60px;
+    margin-left: 200px;
+    
+  }
+  .experience-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .experience-content h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .experience-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .experience-container.left .experience-content {
+    text-align: right;
+  }
+  
+  .experience-container.right .experience-content {
+    text-align: left;
+  }
+  
+  .experience-container:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    border-left: 2px dotted #ccc;
+  }
+  
+  .experience-container.left:before {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .experience-container.right:before {
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .title {
+      font-size: 5vw;
+    }
+  
+    .subtitle {
+      font-size: 2vw;
+      
+    }
+  
+    .terms li {
+      font-size: 3vw;
+    }
+  
+    .cta-buttons button {
+      font-size: 4vw;
+      margin: 20px 5px;
+    }
+  
+    .experience-content h3 {
+      font-size: 4vw;
+    }
+  
+    .experience-content h4 {
+      font-size: 3vw;
+    }
+  
+    .experience-content p {
+      font-size: 2.5vw;
+    }
+  }
+  

@@ -5,7 +5,6 @@ import '../assets/fonts.css';
 function Experience() {
   return (
     <section style={{ position: 'relative' }}>
-      <h1 class="heading">Erfarenhet</h1>
       <div className="experience-container left">
         <ExperienceComponent
           title="Examensarbete"

@@ -1,14 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './MenuBar.css'
+import logo from '../assets/Personal-logo.png';
 
 function MenuBar() {
   return (
-    <nav>
+    <nav className="navbar">
+      <div className="logo-container">
+        <img src={logo} alt="Logo" className="logo" />
+      </div>
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/">Hem</Link></li>
+        <li><Link to="/about">Om mig</Link></li>
+        <li><Link to="/contact">Kontakt</Link></li>
       </ul>
     </nav>
   );

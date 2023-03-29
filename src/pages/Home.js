@@ -3,6 +3,9 @@ import './Home.css';
 import '../assets/fonts.css';
 import ExperienceComponent from '../components/ExperienceComponent';
 import Experience from './Experience';
+import ProjectCard from '../components/ProjectCard.js';
+import Projects from './Projects';
+import Footer from '../components/FooterComponent';
 
 function Home() {
   return (
@@ -29,13 +32,21 @@ function Home() {
         </div>
       </div>
 
+      <div class="containers">  
+      <h1 class="heading">Projekt</h1>
+      <Projects />
       <section>
         <div>
           <div>
+          <h1 class="heading">Erfarenhet</h1>
             <Experience/>
           </div>
         </div>
       </section>
+      </div>
+
+    <div class="footer-container"><Footer /></div>
+    
     </>
   );
 }

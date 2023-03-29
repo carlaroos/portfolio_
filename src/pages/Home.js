@@ -6,6 +6,7 @@ import Experience from './Experience';
 import ProjectCard from '../components/ProjectCard.js';
 import Projects from './Projects';
 import Footer from '../components/FooterComponent';
+import ContactMe from '../components/ContactMe';
 
 function Home() {
   return (
@@ -45,7 +46,14 @@ function Home() {
       </section>
       </div>
 
-    <div class="footer-container"><Footer /></div>
+    <div class="contact-container">
+        <ContactMe />
+    </div>
+      
+    <div class="footer-container">
+        <Footer />
+    </div>
+
     
     </>
   );

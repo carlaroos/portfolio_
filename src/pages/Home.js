@@ -11,6 +11,7 @@ import ContactMe from '../components/ContactMe';
 function Home() {
   return (
     <>
+    <div className="main">
       <div className="container">
         <div className="subtitle">
           <h2>Hej! Jag heter Carla och är (snart färdig) </h2>
@@ -28,7 +29,6 @@ function Home() {
         </div>
 
         <div className="cta-buttons">
-          <button className="project">Projekt</button>
           <button className="contact">Kontakt</button>
         </div>
       </div>
@@ -36,15 +36,16 @@ function Home() {
       <div class="containers">  
       <h1 class="heading">Projekt</h1>
       <Projects />
+      </div>
       <section>
-        <div>
-          <div>
-          <h1 class="heading">Erfarenhet</h1>
+        <div className='experience-section'>
+          <div class="experience">
+          <h1 class="heading2">Erfarenhet</h1>
             <Experience/>
           </div>
         </div>
       </section>
-      </div>
+      
 
     <div class="contact-container">
         <ContactMe />
@@ -53,7 +54,7 @@ function Home() {
     <div class="footer-container">
         <Footer />
     </div>
-
+    </div>
     
     </>
   );

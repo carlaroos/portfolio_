@@ -1,10 +1,17 @@
 .contact-container{
-    width: 100%;
-    margin-right: 80px;
-    background-color: orange;
-    
-    margin-right: 100px;
+    width: 80%;
+    background-color: #ffa352;
+    border: black 3px solid;
+    box-shadow: 3px 3px 0 0 #031926;
+    margin: 0 auto; /* add this line to center it horizontally */
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    background-image: url("../assets/bakgrund-kontakt.png");
+    background-size: cover;
 }
+
 .contact-me {
     margin: 80px auto;
     padding-top: 40px;
@@ -12,7 +19,6 @@
     text-align: center;
     align-items: center;
     height: 300px;
-    
     
     
   }
@@ -28,19 +34,21 @@
     font-size: 18px;
     line-height: 1.5;
     font-family: 'Satoshi-Medium';
-    margin-bottom: 40px;
+    margin-bottom:60px;
   }
   
   .btn{
     padding: 20px 20px;
-  background-color: black;
-  border: none;
-  color: #fff;
-  font-size: 16px;
-  font-family: 'Satoshi-Bold';
-  cursor: pointer;
-  transition: background-color 0.3s;
-  width: 100%;
+    background-color: rgb(27, 27, 27);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Satoshi-Bold';
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    border: black 3px solid;
+    box-shadow: 3px 3px 0 0 #031926;
   
   }
 

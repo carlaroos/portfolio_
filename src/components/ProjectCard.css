@@ -3,11 +3,17 @@
   flex-wrap: wrap;
   max-width: 100%;
   background-color: #f5f5f5;
-  border-radius: 10px;
+  
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   margin: 20px;
   height: 400px;
+
+  border: black 3px solid;
+  box-shadow: 3px 3px 0 0 #031926;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  
 }
 
 .background-image {

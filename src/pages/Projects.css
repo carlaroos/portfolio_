@@ -1,0 +1,11 @@
+.projects input,
+.projects select,
+.projects textarea {
+  text-decoration: none;
+}
+
+.projects input,
+.projects select,
+.projects textarea {
+  text-decoration: none !important;
+}

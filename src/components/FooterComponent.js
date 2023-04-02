@@ -4,7 +4,7 @@ import './FooterComponent.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2023 Carla</p>
+      <p>© 2023 Carla Roos Morales</p>
     </footer>
   );
 }

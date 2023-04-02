@@ -52,7 +52,7 @@ function Home() {
     </div>
       
     <div class="footer-container">
-        <Footer />
+       
     </div>
     </div>
     

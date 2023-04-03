@@ -14,7 +14,7 @@ const project1page = () => {
         <div class="projects-containers">
           <Project
             imgSrc={polarbrodcover}
-            title="Project 2"
+            title="Smörgåsverktyg"
             year="2021"
             description="Ett koncept till ett smörgåsverktyg beställt av Polarbröd, mer specifikt deras innovationslabb Smedjan. Uppdraget var att undersöka och ta fram en digital lösning där konsumenter kan vara en del av processen med framtagning av nya produkter. Resultatet blev ett smörgåsverktyg med syfte för att hålla i en tävling där användarna får skapa en egen smörgås och sedan tävla om den bästa smörgåsen." />
         

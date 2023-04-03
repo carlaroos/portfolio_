@@ -1,10 +1,12 @@
 import React from 'react';
+import ContactMe from '../components/ContactMe';
 
 function About() {
   return (
-    <div>
-      <h1>contact</h1>
-      <p>This is the About page.</p>
+    <div id='contact'>
+      <div class="contact-container" >
+        <ContactMe />
+    </div>
     </div>
   );
 }

@@ -7,6 +7,7 @@ import ProjectCard from '../components/ProjectCard.js';
 import Projects from './Projects';
 import Footer from '../components/FooterComponent';
 import ContactMe from '../components/ContactMe';
+import About from './About';
 
 function Home() {
   return (
@@ -29,16 +30,22 @@ function Home() {
         </div>
 
         <div className="cta-buttons">
-          <button className="contact">Kontakt</button>
+          <button className="contact"> <a href='#contact'>Kontakt</a></button>
         </div>
       </div>
 
-      <div class="containers">  
+      <div class="containers" id="projects">  
       <h1 class="heading">Projekt</h1>
-      <Projects />
+        <Projects />
       </div>
       <section>
-        <div className='experience-section'>
+        <div className='about-containers'>
+            <About/>
+        </div>
+        
+      </section>
+      <section>
+        <div className='experience-section' id="experience">
           <div class="experience">
           <h1 class="heading2">Erfarenhet</h1>
             <Experience/>
@@ -46,8 +53,9 @@ function Home() {
         </div>
       </section>
       
+    
 
-    <div class="contact-container">
+    <div class="contact-container" id="contact">
         <ContactMe />
     </div>
       

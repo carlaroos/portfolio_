@@ -51,7 +51,12 @@ body {
   font-weight: 400;
   color: #2f234f;
   text-decoration: none;
+  
+  
 }
+.om-mig  {
+    white-space: nowrap;
+  }
 
 .nav-elements ul a.active {
   color: #574c4c;

@@ -49,9 +49,23 @@
     width: 100%;
     border: black 3px solid;
     box-shadow: 3px 3px 0 0 #031926;
-  
+    transition: box-shadow 0.2s ease-in-out;  
   }
 
   .btn:hover {
     background-color: gray;
+    box-shadow: 0px 0px 0 0 #031926;
+  }
+
+
+  @media only screen and (max-width: 480px) {
+     .contact-me h2{
+        font-size: 25px;
+        
+    }
+    .contact-me p{
+        font-size: 15px;
+        margin: 35px 20px;
+        
+    }
   }

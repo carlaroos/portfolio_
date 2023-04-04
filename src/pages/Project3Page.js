@@ -12,7 +12,7 @@ const project3page = () => {
         <div class="projects-containers">
           <Project
             imgSrc={project1Img}
-            title="Project 2"
+            title="Brand identity"
             year="2022"
             description="1step.se är ett företag som sammankopplar företag med stundeter i Västerbotten. Mitt uppdrag var att ta fram visuella och kommunikativa riktlinjer kring hur de ska visa och använda sitt varumärke. Detta inkluderade logotyp, riktlinjer, färger och texttyper. " />
         

@@ -46,7 +46,8 @@ const project1page = () => {
                 <p>I denna fas gjorde vi en kopia av wireframsen och omvandlade allt till mockups med färger och bilder. De komponenter som skapades i wireframesen gjordes om och nya skapades. Vi fortsatte att följa Polarbröds designmanual och kolla deras hemsida för att se till att känslan av verktyget passade in med Polarbröds egna design. Vi lade till bilder på ingredienser, bestämde vilka ingredienskategorier som skulle finnas. Här låg mitt huvudfokus på att göra “välj ingredienser” i både desktop-version och mobil version.</p>
                 <div class="image-container">
                     <img src={polarbrodhifi1} alt="Project 1" />
-                    <img src={polarbrodhifi2} alt="Project 1" />
+                    <div class="hifi2"><img src={polarbrodhifi2} alt="Project 1" /></div>
+                    
                 </div>
                 
             </div>
